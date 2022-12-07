@@ -1,82 +1,84 @@
-[
-    { 
-        "id": 1001,
-        "type": "ACCOUNT",
-        "name": "CUENTA SUELDO",
-        "balance": 4000.00,
-        "creditline": "",
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 1002,
-        "type": "ACCOUNT",
-        "name": "CUENTA FÁCIL",
-        "balance": 1500.69,
-        "creditline": "",
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 1003,
-        "type": "ACCOUNT",
-        "name": "CUENTA FÁCIL",
-        "balance": 1823.45,
-        "creditline": "",
-        "status": "INACTIVE"
-    },
-    { 
-        "id": 1004,
-        "type": "ACCOUNT",
-        "name": "CUENTA GANADORA",
-        "balance": 2300.00,
-        "creditline": "",
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 1005,
-        "type": "ACCOUNT",
-        "name": "CUENTA INDEPENDENCIA",
-        "balance": 5000.00,
-        "creditline": "",
-        "status": "INACTIVE"
-    },
-	{ 
-        "id": 2001,
-        "type": "CREDIT_CARD",
-        "name": "VISA CERO",
-        "balance": 2500.00,
-        "creditline": 3000.00,
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 2002,
-        "type": "CREDIT_CARD",
-        "name": "VISA PUNTOS",
-        "balance": 1430.42,
-        "creditline": 2000.00,
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 2003,
-        "type": "CREDIT_CARD",
-        "name": "MASTERCARD PUNTOS",
-        "balance": 4500.00,
-        "creditline": 7000.00,
-        "status": "ACTIVE"
-    },
-    { 
-        "id": 2004,
-        "type": "CREDIT_CARD",
-        "name": "CUOTA FIJA",
-        "balance": 3000.00,
-        "creditline": 3000.00,
-        "status": "INACTIVE"
-    },
-    { 
-        "id": 2005,
-        "type": "CREDIT_CARD",
-        "name": "VISA PLATINUM PUNTOS",
-        "balance": 1802.65,
-        "creditline": 20000.00,
-        "status": "ACTIVE"
-    }
-]
+{
+	"accounts": [
+		{ 
+			"id": 1001,
+			"type": "ACCOUNT",
+			"name": "CUENTA SUELDO",
+			"balance": 4000.00,
+			"creditline": "",
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 1002,
+			"type": "ACCOUNT",
+			"name": "CUENTA FÁCIL",
+			"balance": 1500.69,
+			"creditline": "",
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 1003,
+			"type": "ACCOUNT",
+			"name": "CUENTA FÁCIL",
+			"balance": 1823.45,
+			"creditline": "",
+			"status": "INACTIVE"
+		},
+		{ 
+			"id": 1004,
+			"type": "ACCOUNT",
+			"name": "CUENTA GANADORA",
+			"balance": 2300.00,
+			"creditline": "",
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 1005,
+			"type": "ACCOUNT",
+			"name": "CUENTA INDEPENDENCIA",
+			"balance": 5000.00,
+			"creditline": "",
+			"status": "INACTIVE"
+		},
+		{ 
+			"id": 2001,
+			"type": "CREDIT_CARD",
+			"name": "VISA CERO",
+			"balance": 2500.00,
+			"creditline": 3000.00,
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 2002,
+			"type": "CREDIT_CARD",
+			"name": "VISA PUNTOS",
+			"balance": 1430.42,
+			"creditline": 2000.00,
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 2003,
+			"type": "CREDIT_CARD",
+			"name": "MASTERCARD PUNTOS",
+			"balance": 4500.00,
+			"creditline": 7000.00,
+			"status": "ACTIVE"
+		},
+		{ 
+			"id": 2004,
+			"type": "CREDIT_CARD",
+			"name": "CUOTA FIJA",
+			"balance": 3000.00,
+			"creditline": 3000.00,
+			"status": "INACTIVE"
+		},
+		{ 
+			"id": 2005,
+			"type": "CREDIT_CARD",
+			"name": "VISA PLATINUM PUNTOS",
+			"balance": 1802.65,
+			"creditline": 20000.00,
+			"status": "ACTIVE"
+		}
+	]
+}
